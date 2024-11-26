@@ -1,0 +1,1003 @@
+.root {
+  display: grid;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  align-content: flex-start;
+  justify-items: center;
+  min-width: 0;
+  min-height: 0;
+  grid-template-columns:
+    var(--plsmc-viewport-gap) 1fr minmax(0, var(--plsmc-wide-chunk))
+    min(
+      var(--plsmc-standard-width),
+      calc(100% - var(--plsmc-viewport-gap) - var(--plsmc-viewport-gap))
+    )
+    minmax(0, var(--plsmc-wide-chunk)) 1fr var(--plsmc-viewport-gap);
+  padding: 0px;
+}
+.root > * {
+  grid-column: 4;
+}
+@media (min-width: 0px) and (max-width: 768px) {
+  .root {
+    padding-top: 8px;
+  }
+}
+@media (min-width: 0px) and (max-width: 768px) {
+  .root > * {
+    grid-column: 4;
+  }
+}
+.signInUp {
+  background: rgba(155, 162, 174, 1);
+  width: 360px;
+  height: 773px;
+  display: block;
+  overflow: hidden;
+  border-radius: 1px;
+}
+.signup1 {
+  width: 366px;
+  height: 518px;
+  display: block;
+  position: absolute;
+  top: -108px;
+  left: -2px;
+  overflow: hidden;
+}
+.backgroundImage {
+  width: 366px;
+  height: 518px;
+  display: block;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+.backgroundImage2 {
+  background: url("/plasmic/app_starter/images/backgroundImage2.png") 0px 0px / 366px 518px no-repeat;
+  width: 100%;
+  height: 100%;
+  display: block;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+}
+.layer1Image {
+  width: 366px;
+  height: 518px;
+  display: block;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+.layer1Image2 {
+  background: url("/plasmic/app_starter/images/layer1Image2.png") 0px 0px / 366px 518px no-repeat;
+  width: 100%;
+  height: 100%;
+  display: block;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+}
+.layer5Image {
+  transform: translate(-0.15899999999999892px, 0.1629999999999967px);
+  width: 143px;
+  height: 171px;
+  display: block;
+  position: absolute;
+  top: 119px;
+  left: 22px;
+}
+.layer5Image2 {
+  background: url("/plasmic/app_starter/images/layer5Image2.png") 0px 0px / 142px 171px no-repeat;
+  width: 100%;
+  height: 100.17%;
+  display: block;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+}
+.layer6Image {
+  transform: translate(-0.15899999999999892px, 0.4730000000000132px);
+  width: 48px;
+  height: 116px;
+  display: block;
+  position: absolute;
+  top: 137px;
+  left: 22px;
+}
+.layer6Image2 {
+  background: url("/plasmic/app_starter/images/layer6Image2.png") 0px 0px / 48px 116px no-repeat;
+  width: 100%;
+  height: 100.07%;
+  display: block;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+}
+.layer2Image {
+  width: 366px;
+  height: 343px;
+  display: block;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+.layer2Image2 {
+  background: url("/plasmic/app_starter/images/layer2Image2.png") 0px 0px / 366px 342px no-repeat;
+  width: 100%;
+  height: 100.16%;
+  display: block;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+}
+.layer15Image {
+  transform: translate(-0.46100000000001273px, -0.37599999999997635px);
+  width: 128px;
+  height: 62px;
+  display: block;
+  position: absolute;
+  top: 261px;
+  left: 178px;
+}
+.layer15Image2 {
+  background: url("/plasmic/app_starter/images/layer15Image2.png") 0px 0px / 127px 62px no-repeat;
+  width: 100%;
+  height: 100.45%;
+  display: block;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+}
+.layer3Image {
+  width: 209px;
+  height: 342px;
+  display: block;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+.layer3Image2 {
+  background: url("/plasmic/app_starter/images/layer3Image2.png") 0px 0px / 209px 341px no-repeat;
+  width: 100%;
+  height: 100.17%;
+  display: block;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+}
+.layer8Image {
+  transform: translate(0.4819999999999993px, -0.46399999999999864px);
+  width: 29px;
+  height: 19px;
+  display: block;
+  position: absolute;
+  top: 254px;
+  left: 86px;
+}
+.layer8Image2 {
+  background: url("/plasmic/app_starter/images/layer8Image2.png") 0px 0px / 29px 18px no-repeat;
+  width: 100%;
+  height: 103.76%;
+  display: block;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+}
+.layer16Layer1CopyImage {
+  transform: translate(0px, 0.3340000000000032px);
+  width: 366px;
+  height: 137px;
+  display: block;
+  position: absolute;
+  top: 326px;
+  left: 0px;
+}
+.layer16Layer1CopyImage2 {
+  background: url("/plasmic/app_starter/images/layer16Layer1CopyImage2.png") 0px 0px / 366px 136px no-repeat;
+  width: 100%;
+  height: 100.62%;
+  display: block;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+}
+.layer10Image {
+  transform: translate(-0.17500000000001137px, -0.34600000000000364px);
+  width: 8px;
+  height: 40px;
+  display: block;
+  position: absolute;
+  top: 218px;
+  left: 267px;
+}
+.layer10Image2 {
+  background: url("/plasmic/app_starter/images/layer10Image2.png") 0px 0px / 8px 40px no-repeat;
+  width: 100%;
+  height: 100.7%;
+  display: block;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+}
+.layer12Image {
+  transform: translate(-0.19199999999999307px, -0.1150000000000091px);
+  width: 12px;
+  height: 14px;
+  display: block;
+  position: absolute;
+  top: 260px;
+  left: 79px;
+}
+.layer12Image2 {
+  background: url("/plasmic/app_starter/images/layer12Image2.png") 0px 0px / 12px 14px no-repeat;
+  width: 100%;
+  height: 101.95%;
+  display: block;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+}
+.layer17Image {
+  transform: translate(0px, 0.35000000000002274px);
+  width: 366px;
+  height: 73px;
+  display: block;
+  position: absolute;
+  top: 445px;
+  left: 0px;
+}
+.layer17Image2 {
+  background: url("/plasmic/app_starter/images/layer17Image2.png") 0px 0px / 366px 73px no-repeat;
+  width: 100%;
+  height: 100.48%;
+  display: block;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+}
+.layer18Image {
+  transform: translate(0.132000000000005px, -0.18000000000000682px);
+  width: 100px;
+  height: 78px;
+  display: block;
+  position: absolute;
+  top: 201px;
+  left: 187px;
+}
+.layer18Image2 {
+  background: url("/plasmic/app_starter/images/layer18Image2.png") 0px 0px / 99px 78px no-repeat;
+  width: 100%;
+  height: 100.04%;
+  display: block;
+  position: absolute;
+  top: 0%;
+  left: 2px;
+}
+.layer9Image {
+  transform: translate(-0.01099999999999568px, -0.16900000000001114px);
+  width: 80px;
+  height: 25px;
+  display: block;
+  position: absolute;
+  top: 254px;
+  left: 205px;
+}
+.layer9Image2 {
+  background: url("/plasmic/app_starter/images/layer9Image2.png") 0px 0px / 80px 25px no-repeat;
+  width: 100%;
+  height: 100.18%;
+  display: block;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+}
+.layer19Image {
+  transform: translate(-0.08799999999999386px, 0.07999999999998408px);
+  width: 35px;
+  height: 64px;
+  display: block;
+  position: absolute;
+  top: 257px;
+  left: 225px;
+}
+.layer19Image2 {
+  background: url("/plasmic/app_starter/images/layer19Image2.png") 0px 0px / 35px 63px no-repeat;
+  width: 100%;
+  height: 101.03%;
+  display: block;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+}
+.frame1000002995 {
+  width: 36px;
+  height: 36px;
+  display: block;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+.svg__pofL2 {
+  object-fit: cover;
+  max-width: 100%;
+  color: #fff;
+  box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.1),
+    -5px 3px 13px 0px rgba(0, 0, 0, 0.1),
+    -20px 13px 24px 0px rgba(0, 0, 0, 0.09),
+    -44px 29px 32px 0px rgba(0, 0, 0, 0.05),
+    -78px 52px 38px 0px rgba(0, 0, 0, 0.009),
+    -123px 82px 41px 0px rgba(0, 0, 0, 0);
+  width: 36px;
+  height: 36px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  display: none;
+}
+@media (min-width: 0px) and (max-width: 768px) {
+  .svg__pofL2 {
+    display: block;
+  }
+}
+.vuesaxOutlineArrowDown {
+  transform: scale(1.000000499999875, -0.999999500000375)
+    rotate(-90.0572957604145deg) skew(0.05729570311883569deg, 0deg);
+  width: 16px;
+  height: 16px;
+  display: block;
+  transform-origin: top left;
+  position: absolute;
+  top: 26px;
+  left: 26px;
+}
+.vuesaxOutlineArrowDown2 {
+  width: 16px;
+  height: 16px;
+  display: block;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+.svg___3FKzu {
+  object-fit: cover;
+  max-width: 100%;
+  color: #292d32;
+  width: 16px;
+  height: 16px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  display: none;
+}
+@media (min-width: 0px) and (max-width: 768px) {
+  .svg___3FKzu {
+    display: block;
+  }
+}
+.frame1000003191 {
+  background: rgba(240, 244, 248, 1);
+  border-top-left-radius: 40px;
+  border-top-right-radius: 49px;
+  width: 360px;
+  height: 443px;
+  display: block;
+  position: absolute;
+  top: 330px;
+  left: 0px;
+  overflow: hidden;
+}
+.frame1000002994 {
+  width: auto;
+  height: auto;
+  display: flex;
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  flex-direction: column;
+}
+.frame1000002994 > :global(.__wab_flex-container) {
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: calc(0px - 40px);
+  height: calc(100% + 40px);
+}
+.frame1000002994 > :global(.__wab_flex-container) > *,
+.frame1000002994 > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.frame1000002994 > :global(.__wab_flex-container) > picture > img,
+.frame1000002994
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-top: 40px;
+}
+.frame2608529 {
+  height: auto;
+  display: flex;
+  position: relative;
+  align-self: stretch;
+  flex-direction: column;
+}
+.frame2608529 > :global(.__wab_flex-container) {
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: calc(0px - 39px);
+  height: calc(100% + 39px);
+}
+.frame2608529 > :global(.__wab_flex-container) > *,
+.frame2608529 > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.frame2608529 > :global(.__wab_flex-container) > picture > img,
+.frame2608529
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-top: 39px;
+}
+.frame2608540 {
+  height: auto;
+  display: flex;
+  position: relative;
+  align-self: stretch;
+  flex-direction: column;
+}
+.frame2608540 > :global(.__wab_flex-container) {
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  margin-top: calc(0px - 16px);
+  height: calc(100% + 16px);
+}
+.frame2608540 > :global(.__wab_flex-container) > *,
+.frame2608540 > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.frame2608540 > :global(.__wab_flex-container) > picture > img,
+.frame2608540
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-top: 16px;
+}
+.frame2608525 {
+  height: auto;
+  display: flex;
+  position: relative;
+  align-self: stretch;
+  flex-direction: column;
+}
+.frame2608525 > :global(.__wab_flex-container) {
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  margin-top: calc(0px - 24px);
+  height: calc(100% + 24px);
+}
+.frame2608525 > :global(.__wab_flex-container) > *,
+.frame2608525 > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.frame2608525 > :global(.__wab_flex-container) > picture > img,
+.frame2608525
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-top: 24px;
+}
+.frame2608526 {
+  height: 106px;
+  display: flex;
+  position: relative;
+  align-self: stretch;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.frame2608526 > :global(.__wab_flex-container) {
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  margin-top: calc(0px - 24px);
+  height: calc(100% + 24px);
+}
+.frame2608526 > :global(.__wab_flex-container) > *,
+.frame2608526 > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.frame2608526 > :global(.__wab_flex-container) > picture > img,
+.frame2608526
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-top: 24px;
+}
+.frame2608522 {
+  height: auto;
+  display: flex;
+  position: relative;
+  align-self: stretch;
+  flex-direction: row;
+}
+.frame2608522 > :global(.__wab_flex-container) {
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  margin-left: calc(0px - 35px);
+  width: calc(100% + 35px);
+}
+.frame2608522 > :global(.__wab_flex-container) > *,
+.frame2608522 > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.frame2608522 > :global(.__wab_flex-container) > picture > img,
+.frame2608522
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-left: 35px;
+}
+.vuesaxOutlineArrowLeft {
+  width: 24px;
+  height: 24px;
+  display: block;
+  position: relative;
+  flex-shrink: 0;
+}
+.vuesaxOutlineArrowLeft2 {
+  width: 24px;
+  height: 24px;
+  display: block;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+.svg__x2CHk {
+  object-fit: cover;
+  max-width: 100%;
+  color: #191b23;
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  display: none;
+}
+@media (min-width: 0px) and (max-width: 768px) {
+  .svg__x2CHk {
+    display: block;
+  }
+}
+.frame2608520 {
+  width: 56px;
+  height: 32px;
+  display: block;
+  position: relative;
+  flex-shrink: 0;
+}
+.svg__oTPoO {
+  object-fit: cover;
+  max-width: 100%;
+  color: #d9d9d9;
+  width: 32px;
+  height: 32px;
+  position: absolute;
+  top: 0px;
+  left: 24px;
+  display: none;
+}
+@media (min-width: 0px) and (max-width: 768px) {
+  .svg__oTPoO {
+    display: block;
+  }
+}
+.نوجهان1 {
+  background: url("/plasmic/app_starter/images/نوجهان1.png") center center / cover no-repeat;
+  width: 52px;
+  height: 30px;
+  display: block;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+.frame2608517 {
+  width: auto;
+  height: auto;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+}
+.frame2608517 > :global(.__wab_flex-container) {
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  margin-top: calc(0px - 8px);
+  height: calc(100% + 8px);
+}
+.frame2608517 > :global(.__wab_flex-container) > *,
+.frame2608517 > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.frame2608517 > :global(.__wab_flex-container) > picture > img,
+.frame2608517
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-top: 8px;
+}
+.text__heXq2 {
+  display: block;
+  font-size: 16px;
+  font-family: "IRANSansX";
+  font-weight: 700;
+  letter-spacing: 0em;
+  line-height: 100%;
+  color: rgba(24, 26, 34, 1);
+  position: relative;
+}
+.text__mbrZx {
+  display: block;
+  font-size: 12px;
+  font-family: "IRANSansX";
+  font-weight: 400;
+  letter-spacing: 0em;
+  line-height: 100%;
+  color: rgba(120, 115, 125, 1);
+  position: relative;
+}
+.component11 {
+  width: 300px;
+  height: 56px;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  border-radius: 8px;
+}
+.textField {
+  height: auto;
+  display: flex;
+  position: relative;
+  align-self: stretch;
+  flex-direction: column;
+  border-radius: 4px;
+}
+.textField > :global(.__wab_flex-container) {
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  margin-top: calc(0px - 10px);
+  height: calc(100% + 10px);
+}
+.textField > :global(.__wab_flex-container) > *,
+.textField > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.textField > :global(.__wab_flex-container) > picture > img,
+.textField
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-top: 10px;
+}
+.stateLayer {
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  height: auto;
+  display: flex;
+  position: relative;
+  align-self: stretch;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding-left: 16px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+.content {
+  height: 40px;
+  display: flex;
+  position: relative;
+  flex-grow: 1;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding-right: 12px;
+}
+.labelText {
+  width: auto;
+  height: auto;
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.labelText2 {
+  display: block;
+  font-size: 14px;
+  font-family: "IRANSansXFaNum";
+  font-weight: 400;
+  letter-spacing: 0em;
+  line-height: 100%;
+  color: rgba(24, 26, 34, 0.3);
+  position: relative;
+}
+.supportingText {
+  width: 298px;
+  height: auto;
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 4px;
+}
+.supportingText > :global(.__wab_flex-container) {
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  margin-left: calc(0px - 10px);
+  width: calc(100% + 10px);
+}
+.supportingText > :global(.__wab_flex-container) > *,
+.supportingText > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.supportingText > :global(.__wab_flex-container) > picture > img,
+.supportingText
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-left: 10px;
+}
+.content2 {
+  width: 290px;
+  height: auto;
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  flex-shrink: 0;
+}
+.labelText3 {
+  display: block;
+  font-size: 10px;
+  text-align: right;
+  font-family: "IRANSansXFaNum";
+  font-weight: 400;
+  letter-spacing: 0em;
+  line-height: 100%;
+  color: rgba(213, 33, 22, 1);
+  position: relative;
+}
+.supportingText2 {
+  height: auto;
+  display: flex;
+  position: relative;
+  align-self: stretch;
+  flex-direction: row;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 4px;
+}
+.supportingText2 > :global(.__wab_flex-container) {
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  margin-left: calc(0px - 10px);
+  width: calc(100% + 10px);
+}
+.supportingText2 > :global(.__wab_flex-container) > *,
+.supportingText2 > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.supportingText2 > :global(.__wab_flex-container) > picture > img,
+.supportingText2
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-left: 10px;
+}
+.content3 {
+  width: 290px;
+  height: auto;
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  flex-shrink: 0;
+}
+.frame2608539 {
+  width: auto;
+  height: auto;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+}
+.frame2608539 > :global(.__wab_flex-container) {
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin-top: calc(0px - 24px);
+  height: calc(100% + 24px);
+}
+.frame2608539 > :global(.__wab_flex-container) > *,
+.frame2608539 > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.frame2608539 > :global(.__wab_flex-container) > picture > img,
+.frame2608539
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-top: 24px;
+}
+.content4 {
+  width: 290px;
+  height: auto;
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.labelText4 {
+  height: 19px;
+  display: flex;
+  position: relative;
+  flex-grow: 1;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.frame2608528 {
+  width: auto;
+  height: auto;
+  display: flex;
+  position: relative;
+  flex-direction: row;
+}
+.frame2608528 > :global(.__wab_flex-container) {
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  margin-left: calc(0px - 7px);
+  width: calc(100% + 7px);
+}
+.frame2608528 > :global(.__wab_flex-container) > *,
+.frame2608528 > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.frame2608528 > :global(.__wab_flex-container) > picture > img,
+.frame2608528
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-left: 7px;
+}
+.svg__ier9R {
+  object-fit: cover;
+  max-width: 100%;
+  color: #191b23;
+  opacity: 0.5;
+  width: 14px;
+  height: 14px;
+  position: relative;
+  flex-shrink: 0;
+}
+@media (min-width: 0px) and (max-width: 768px) {
+  .svg__ier9R {
+    display: block;
+  }
+}
+.labelText5 {
+  display: block;
+  font-size: 12px;
+  text-align: right;
+  font-family: "IRANSansXFaNum";
+  font-weight: 400;
+  letter-spacing: 0em;
+  line-height: 100%;
+  color: rgba(24, 26, 34, 1);
+  position: relative;
+}
+.frame2608516 {
+  height: auto;
+  display: flex;
+  position: relative;
+  align-self: stretch;
+  flex-direction: column;
+}
+.frame2608516 > :global(.__wab_flex-container) {
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  margin-top: calc(0px - 24px);
+  height: calc(100% + 24px);
+}
+.frame2608516 > :global(.__wab_flex-container) > *,
+.frame2608516 > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.frame2608516 > :global(.__wab_flex-container) > picture > img,
+.frame2608516
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-top: 24px;
+}
+.component12 {
+  background: rgba(22, 110, 250, 1);
+  box-shadow: inset 0px 0px 0px 1px rgba(120, 115, 125, 1);
+  opacity: 0.5;
+  width: 300px;
+  height: 43px;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  flex-shrink: 0;
+  border-radius: 30px;
+}
+.component12 > :global(.__wab_flex-container) {
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: calc(0px - 10px);
+  height: calc(100% + 10px);
+}
+.component12 > :global(.__wab_flex-container) > *,
+.component12 > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.component12 > :global(.__wab_flex-container) > picture > img,
+.component12
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-top: 10px;
+}
+.stateLayer2 {
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  height: auto;
+  display: flex;
+  position: relative;
+  align-self: stretch;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+.content5 {
+  height: 40px;
+  display: flex;
+  position: relative;
+  flex-grow: 1;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.labelText6 {
+  width: auto;
+  height: auto;
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.labelText7 {
+  display: block;
+  font-size: 14px;
+  font-family: "IRANSansX";
+  font-weight: 500;
+  letter-spacing: 0em;
+  line-height: 100%;
+  color: rgba(255, 255, 255, 1);
+  position: relative;
+}
+.text__xvq9U {
+  display: block;
+  font-size: 10px;
+  letter-spacing: 0em;
+  line-height: 100%;
+  position: relative;
+  font-family: "Inria Sans", sans-serif;
+}
